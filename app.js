@@ -21,7 +21,7 @@ var FizzBuzz = () => {
   num = parseFloat(num);
   if (Number.isNaN(num) || Number.isInteger(num) === false) {
     alert("Please enter an integer");
-    FizzBuzz();
+    window.location.reload();
   } else {
     return num;
   }
